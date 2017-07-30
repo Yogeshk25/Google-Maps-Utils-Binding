@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		LICENSE = LICENSE
 		README.MD = README.MD
+		GoogleMapsUtils.iOS\GoogleMapsUtils.nuspec = GoogleMapsUtils.iOS\GoogleMapsUtils.nuspec
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSMapUtilSample", "sample\iOSMapUtilSample.csproj", "{3907084C-2E54-4A26-AB50-E71B75DC5B6F}"

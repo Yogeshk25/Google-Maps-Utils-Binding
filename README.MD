@@ -2,7 +2,6 @@
 
 This is a set of Xamarin bindings for the [Utility Library for Google Maps SDK for iOS][0] (google-maps-ios-utils CocoaPod).
 
-Nuget plugin for Xamarin.iOS platform can be downloaded from [https://www.nuget.org/packages/Xamarin.iOS.Maps.Utils/][1]
 
 ## Building
 
@@ -25,4 +24,3 @@ The library can be used as in the included sample (adapted from the Swift sample
 
 
 [0]:https://github.com/googlemaps/google-maps-ios-utils
-[1]:https://www.nuget.org/packages/Xamarin.iOS.Maps.Utils/
