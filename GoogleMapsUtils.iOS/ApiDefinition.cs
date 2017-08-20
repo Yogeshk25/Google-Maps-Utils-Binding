@@ -119,7 +119,6 @@ namespace GMCluster
 	interface IGMUClusterManagerDelegate { }
 
 	// @interface GMUClusterManager : NSObject
-	[Protocol, Model]
 	[BaseType(typeof(NSObject))]
 	interface GMUClusterManager
 	{
@@ -174,7 +173,6 @@ namespace GMCluster
 
 
 	// @interface GMUDefaultClusterIconGenerator : NSObject <GMUClusterIconGenerator>
-	[Protocol, Model]
 	[BaseType(typeof(NSObject))]
 	interface GMUDefaultClusterIconGenerator : GMUClusterIconGenerator
 	{
@@ -192,7 +190,6 @@ namespace GMCluster
 	}
 
 	// @interface GMUDefaultClusterRenderer : NSObject <GMUClusterRenderer>
-	[Protocol, Model]
 	[BaseType(typeof(NSObject))]
 	interface GMUDefaultClusterRenderer : GMUClusterRenderer
 	{
@@ -242,14 +239,12 @@ namespace GMCluster
 	interface IGMUClusterRendererDelegate { }
 
 	// @interface GMUGridBasedClusterAlgorithm : NSObject <GMUClusterAlgorithm>
-	[Protocol, Model]
 	[BaseType(typeof(NSObject))]
 	interface GMUGridBasedClusterAlgorithm : GMUClusterAlgorithm
 	{
 	}
 
 	// @interface GMUStaticCluster : NSObject <GMUCluster>
-	[Protocol, Model]
 	[BaseType(typeof(NSObject))]
 	interface GMUStaticCluster : GMUCluster
 	{
@@ -279,7 +274,6 @@ namespace GMCluster
 	}
 
 	// @interface GMUWrappingDictionaryKey : NSObject <NSCopying>
-	[Protocol, Model]
 	[BaseType(typeof(NSObject))]
 	interface GMUWrappingDictionaryKey : INSCopying
 	{
@@ -302,7 +296,6 @@ namespace GMCluster
 	interface IGQTPointQuadTreeItem { }
 
 	// @interface GQTPointQuadTree : NSObject
-	[Protocol, Model]
 	[BaseType(typeof(NSObject))]
 	interface GQTPointQuadTree
 	{
@@ -332,7 +325,6 @@ namespace GMCluster
 	}
 
 	// @interface GQTPointQuadTreeChild : NSObject
-	[Protocol, Model]
 	[BaseType(typeof(NSObject))]
 	interface GQTPointQuadTreeChild
 	{
@@ -354,7 +346,6 @@ namespace GMCluster
 	}
 
 	// @interface GMUNonHierarchicalDistanceBasedAlgorithm : NSObject <GMUClusterAlgorithm>
-	[Protocol, Model]
 	[BaseType(typeof(NSObject))]
 	interface GMUNonHierarchicalDistanceBasedAlgorithm : GMUClusterAlgorithm
 	{
